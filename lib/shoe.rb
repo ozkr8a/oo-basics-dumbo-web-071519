@@ -10,7 +10,8 @@ class Shoe
     
   end
   
-  def cobble
+  def cobble(condition)
+    @condition = condition
     "Your shoe is as good as new!"
   end
   
