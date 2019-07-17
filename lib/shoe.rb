@@ -14,8 +14,8 @@ class Shoe
     @condition
   end
   
-  def cobble=(cond)
-    self.condition = cond
+  def cobble
+    self.condition = new
     "Your shoe is as good as new!"
   end
   
